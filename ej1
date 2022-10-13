@@ -13,5 +13,4 @@ def obtenerCuadrante (self):
         cuadrante = 'El punto '
 
 
-print("hola")
 
