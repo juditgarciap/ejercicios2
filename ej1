@@ -17,3 +17,11 @@ def obtenerCuadrante (self):
     return cuadrante
 
 def vector (self, punto):
+    x= punto.x - self.x 
+    y= punto.y - self.y
+    return x,y 
+
+import math
+def distancia(self, punto):
+    distancia = math.sqrt ((punto.x - self.x)**2 + (punto,y - self.y)**2)
+    return distancia 
