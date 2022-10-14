@@ -14,3 +14,6 @@ def obtenerCuadrante (self):
 
 
 
+    return cuadrante
+
+def vector (self, punto):
