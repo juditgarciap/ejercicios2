@@ -13,4 +13,4 @@ def CambiarTexto (texto) :
     return texto
 
 
-print(CambiarTexto(texto))
+print(CambiarTexto(tex))
