@@ -9,4 +9,8 @@ def CambiarTexto (texto) :
             lineas[posicion]= lineas[posicion].capitalize()+"..."
         else:
             lineas[posicion]= "- "+lineas[posicion].capitalize()+"."
-   
+    texto="\n".join(lineas)
+    return texto
+
+
+print(CambiarTexto(texto))
