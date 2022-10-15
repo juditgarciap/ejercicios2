@@ -1,3 +1,5 @@
+#ejercicio1 tema2 (parte 1)
+
 class Punto:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -7,7 +9,7 @@ class Punto:
 
     def __str__ (self): 
         return "({},{})".format (self.x,self.y)
-
+#Esta funcion nos permite saber en que cuadrante está el punto
     def obtenerCuadrante(self):
         if self.x == 0 and self.y == 0:
             cuadrante = 'El punto ({},{}) no esta en nigún cuadrante, esta en el origen'.format(self.x, self.y)
@@ -22,21 +24,45 @@ class Punto:
 
         return cuadrante
 
+punto_1 = Punto(4, -7)
+punto_origen = Punto()
+punto_2 = Punto(2,2)
+
+print(punto_1)
+print(punto_origen)
+
+print(punto_origen.x)
+print(punto_1.y)
+
+punto_origen.obtenerCuadrante()
+
+punto_1.obtenerCuadrante()
 
 
 
-
- 
+#esta función calcula el vector resultante  
 def vector (self, punto):
     x= punto.x - self.x 
     y= punto.y - self.y
+
+
     return x,y 
 
+punto_1.vector(punto_origen)
+
+punto_1.vector(punto_2)
+
+
+#optativo, toma otro punto y calcula la distancia entre los dos puntos 
 import math
 def distancia(self, punto):
     distancia = math.sqrt ((punto.x - self.x)**2 + (punto.y - self.y)**2)
+
     return distancia 
 
+punto_1.distancia(punto_origen)
+
+#
 
 
 
