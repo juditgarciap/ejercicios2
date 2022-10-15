@@ -62,10 +62,12 @@ def distancia(self, punto):
 
 punto_1.distancia(punto_origen)
 
-#
 
 
 
+
+
+#ejercicio1 tema2 (parte 2)
 class Rectangulo:
     def __init__(self, punto 1= Punto()
 
