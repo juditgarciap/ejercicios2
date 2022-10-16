@@ -3,7 +3,7 @@ from pickle import TRUE
 
 def modificar(lista):
 
-    print("lista sin duplicados:")
+    print("Esta lista sin duplicados:")
     lista_sin_duplicados= list(dict.fromkeys(lista))
     print(lista_sin_duplicados)
 
@@ -12,4 +12,9 @@ def modificar(lista):
     lista_ordenada = sorted(lista_sin_duplicados, reverse= True)
     print(lista_ordenada)
 
-    
+    print("lista sin impares:")
+    lista_sin_impares=[]
+    for numero in lista_ordenada:
+        if numero%2==0:
+    print(lista_sin_impares)
+
