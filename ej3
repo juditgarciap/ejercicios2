@@ -16,5 +16,21 @@ def modificar(lista):
     lista_sin_impares=[]
     for numero in lista_ordenada:
         if numero%2==0:
+            lista_sin_impares.append(numero)
     print(lista_sin_impares)
+
+    print("suma lista:")
+    suma_lista=sum(lista_sin_impares)
+    print(suma_lista)
+
+    print("agrego suma a lista:")
+    lista_sin_impares.insert(0,suma_lista)
+    print(lista_sin_impares)
+    return lista_sin_impares
+
+
+
+
+
+
 
