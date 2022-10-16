@@ -6,3 +6,10 @@ def modificar(lista):
     print("lista sin duplicados:")
     lista_sin_duplicados= list(dict.fromkeys(lista))
     print(lista_sin_duplicados)
+
+
+    print("lista ordenada:")
+    lista_ordenada = sorted(lista_sin_duplicados, reverse= True)
+    print(lista_ordenada)
+
+    
