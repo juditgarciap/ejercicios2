@@ -28,6 +28,12 @@ def modificar(lista):
     print(lista_sin_impares)
     return lista_sin_impares
 
+lista_original=[2, 3, 4, 5, 3, 1, 2]
+nueva_lista = modificar(lista_original)
+print(nueva_lista[0] == sum(nueva_lista[1:]))
+print(lista_original)
+
+
 
 
 
