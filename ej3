@@ -1,0 +1,8 @@
+from pickle import TRUE
+
+
+def modificar(lista):
+
+    print("lista sin duplicados:")
+    lista_sin_duplicados= list(dict.fromkeys(lista))
+    print(lista_sin_duplicados)
